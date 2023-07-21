@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Solaris Music</title>
+
+  <link rel="stylesheet" href="music.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <audio src="" id="audio"></audio>
+
+
+  <div class="player">
+    <h1 class="music-name">Track</h1>
+    <p class="singer">Artist</p>
+
+    <div class="disc"></div>
+
+    <div class="music-slider">
+      <input type="range" value="0" class="seek">
+
+      <span class="current-time">00:00</span>
+
+      <span class="song-duration">00:00</span>
+    </div>
+
+    <div class="controls">
+
+      <button class="btn backward-btn">&#10218;</button>
+
+      <button class="play-btn pause">
+        <span></span>
+        <span></span>
+      </button>
+
+      <button class="btn foward-btn">&#10219;</button>
+    </div>
+
+
+  </div>
+
+
+  
+  <script src="mData.js"></script>
+  <script src="music.js"></script>
+</body>
+
+</html>
